@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkLit</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script/word-list.js" defer></script>
+    <script src="script/timer.js" defer></script>
+    <script src="script/script.js" defer></script>
+    <script src="script/particle.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+</head>
+<body>
+    <div class="gradient-heading">ThinkLit</div>
+  
+    <div id="particles-js"></div>
+    
+    <div class="game-model">
+        <div class="content">
+            <img src="images/lost.gif" alt="gif">
+            <h2>Game Over!</h2>
+            <p>The Correct Word Was: <b>Rainbow</b></p>
+            <button class="playagain">
+                Play Again
+            </button>    
+        </div>
+    </div>
+    <div class="container">
+        <div class="main">
+            <img src="images/hangman-0.svg" alt="hangman-img">
+            <div class="timer-container">
+                <div class="timer-icon">⏱️</div>
+                <div class="timer">2:00</div>
+            </div>
+        </div>
+        <div class="game-box">
+            <ul class="word-display"></ul>
+            <h3 class="hint-text">
+                Hint:
+                <b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, ut.</b>
+            </h3>
+            <h3 class="guess-text">
+                Incorrect guesses:
+                <b>0 / 6</b>
+            </h3>
+            <div class="keyboard"></div>
+        </div>
+    </div>
+</body>
+</html>
